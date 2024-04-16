@@ -5,6 +5,13 @@ Welcome to the GitHub repository of our Smart Home Automation Project! This proj
 1. Smart Irrigation Process for personal gardening purposes
 2. Smart Fan Automation for home comfort
 
+# Smart Home Automation
+
+## Introduction
+In this tutorial we will designed to automate 2 processes with ESP32C6 and ESP Rainmaker app.
+1. Smart Irrigation Process for personal gardening purposes
+2. Laptop Fan-Cooler using DHT11 sensor, and DC Fan with Thinkspeak analysis and Email notifications Alerts 
+
 ## 1. Smart Irrigation
 ### Features
 - **Automated Watering**: Automatically waters your plant based on the soil moisture level.
@@ -12,7 +19,7 @@ Welcome to the GitHub repository of our Smart Home Automation Project! This proj
 - **Real-Time Monitoring**: Monitor soil moisture and weather updates in real-time via our mobile app or web dashboard.
 <!-- - **Energy Efficient**: Designed to save water and reduce energy consumption by using advanced algorithms to determine the precise amount of water needed. -->
 
-### Hardware Requirements
+### Things you need for this project
 - Soil moisture sensor
 - Microcontroller (ESP32C6)
 - Water pump
