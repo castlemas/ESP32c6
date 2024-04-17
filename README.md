@@ -15,17 +15,26 @@ Welcome to the GitHub repository of our Smart Home Automation Project! This proj
 ### Hardware Requirements
 - Soil moisture sensor
 - Microcontroller (ESP32C6)
-- Water pump
-- Tubing and irrigation supplies
+- 12V Water pump
+- Water pump tubing
+- 12V DC Power Supply
+- 5V Relay
 - Power supply
+- Jumper Wires
+
 
 ### Software Requirements
 - ESP-IDF for programming the microcontroller
 - Rainmaker Application
 
 ### Installation
-- Assemble the hardware components as per the schematic diagram available in the `schematics` folder.
-TBC
+#### Step 1
+Assemble the hardware components as per the schematic diagram below
+![Schematic Diagram of the Auto Irrigation System](../images/schematic-diagram.jpg)
+
+
+#### Step 2
+Pull the repo
 
 
 ### Configuration
