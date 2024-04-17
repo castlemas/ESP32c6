@@ -54,7 +54,7 @@ After installation and configuration, the system will automatically start monito
 - ESP-IDF for programming the microcontroller
 - Rainmaker Application
 - Thingspeak
-- Matlab
+- MATLAB
 - Outlook
 
 ### Installation
