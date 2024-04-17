@@ -51,8 +51,11 @@ After installation and configuration, the system will automatically start monito
 - 1N4001 Diode
 
 ### Software Requirements
-
-
+- ESP-IDF for programming the microcontroller
+- Rainmaker Application
+- Thingspeak
+- Matlab
+- Outlook
 
 ### Installation
 
