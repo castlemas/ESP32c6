@@ -53,7 +53,7 @@ After installation and configuration, the system will automatically start monito
 ### Software Requirements
 - ESP-IDF for programming the microcontroller
 - Rainmaker Application
-- Thingspeak
+- ThingSpeak
 - MATLAB
 - Outlook
 
