@@ -59,7 +59,8 @@ After installation and configuration, the system will automatically start monito
 - Outlook
 
 ### Installation
-
+### Step 1:
+Pull github
 
 
 ### Configuration
