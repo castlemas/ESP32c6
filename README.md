@@ -41,7 +41,7 @@ After installation and configuration, the system will automatically start monito
 
 
 ### Hardware Requirements
-
+![Group 10](https://hackmd.io/_uploads/r1Otaa3eA.png)
 
 
 ### Software Requirements
