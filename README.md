@@ -3,7 +3,7 @@
 ## Introduction
 Welcome to the GitHub repository of our Smart Home Automation Project! This project is designed to automate 2 processes. 
 1. Smart Irrigation Process for personal gardening purposes
-2. Smart Fan Automation for home comfort
+2. Laptop Fan-Cooler with ThingSpeak and email alerts for high temperature.
 
 ## Basic Requirements
 1. Visual Studio Code installed
@@ -89,4 +89,8 @@ For full details please refer to tutorial here: https://docs.google.com/document
 
 ## Acknowledgements
 
-
+Acknowledgment
+https://esp32tutorials.com/esp32-esp-idf-thingspeak-send-sensor-readings/ 
+https://esp32tutorials.com/bme280-esp32-esp-idf-oled/ 
+https://github.com/UncleRus/esp-idf-lib?tab=readme-ov-file 
+https://esp32tutorials.com/esp32-web-server-esp-idf/ 
