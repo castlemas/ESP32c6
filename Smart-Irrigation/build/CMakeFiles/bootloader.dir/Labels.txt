@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/CMakeFiles/bootloader
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/CMakeFiles/bootloader.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/CMakeFiles/bootloader-complete.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+D:/SUTD/Term_8/IOT/esp-rainmaker/examples/multi_device/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule
