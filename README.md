@@ -5,6 +5,10 @@ Welcome to the GitHub repository of our Smart Home Automation Project! This proj
 1. Smart Irrigation Process for personal gardening purposes
 2. Smart Fan Automation for home comfort
 
+## Basic Requirements
+1. Visual Studio Code installed
+2. ESP-IDF extension installed with version 1.71 and above
+
 ## 1. Smart Irrigation
 ### Features
 - **Automated Watering**: Automatically waters your plant based on the soil moisture level.
@@ -30,12 +34,22 @@ Welcome to the GitHub repository of our Smart Home Automation Project! This proj
 ### Installation
 #### Step 1
 Assemble the hardware components as per the schematic diagram below
-![Schematic Diagram of the Auto Irrigation System](../images/schematic-diagram.jpg)
-
+![Schematic Diagram of the Auto Irrigation System](https://raw.githubusercontent.com/castlemas/Smart-Home-Automation-ESP32c6/main/images/schematic-diagram.jpg
+)
 
 #### Step 2
-Pull the repo
+Pull the repo from the 
 
+#### Step 3
+Open the folder in Visual Studio Code. Configure the ESP-IDF to ESP32C6 and the port that you are connected to. 
+
+(Note: You can know which port you are using by checking the device manager)
+
+#### Step 4
+Click on **build** and wait for the build to be completed. Once the build is done, click on **flash**.
+
+#### Step 5
+For first time use, click on **monitor** and a QR code will be generated. Scan the QR code with the ESP RainMaker App and the device will be connected to the app.
 
 ### Configuration
 - **Moisture Threshold**: Set the desired soil moisture level that triggers the irrigation system.
