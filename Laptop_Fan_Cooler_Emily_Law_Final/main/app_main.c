@@ -28,7 +28,7 @@ Emily Law 1005230
 #include "app_priv.h"
 
 static const char *TAG = "HTTP_CLIENT";
-char api_key[] = "5H2UO1GTJSJRH1QT";
+char api_key[] = "<insert_api_key>";
 
 
 esp_rmaker_device_t *switch_device;
@@ -66,7 +66,7 @@ static esp_err_t write_cb(const esp_rmaker_device_t *device, const esp_rmaker_pa
 }
 
 void send_data_to_thingspeak(void *pvParameters) {
-    const char* api_key = "5H2UO1GTJSJRH1QT";  // Use your actual API key
+    const char* api_key = "<insert_api_key>";  // Use your actual API key
     char url[256];  // Buffer to hold the complete URL
 
     while (1) {

@@ -1,0 +1,43 @@
+% Store the channel ID for the temperature sensor channel.
+channelID = 2507388;  % Replace with your actual channel ID
+
+% Provide the ThingSpeak alerts API key. All alerts API keys start with TAK.
+alertApiKey = '<insert-ALERT-API-KEY>';  % Replace with your actual alerts API key
+
+% Set the address for the HTTP call
+alertUrl = "https://api.thingspeak.com/alerts/send";
+
+% Define the link and image URL
+linkToQRcode = "https://rainmaker.espressif.com/qrcode.html?data={";
+
+% webwrite uses weboptions to add required headers. Alerts need a ThingSpeak-Alerts-API-Key header.
+options = weboptions("HeaderFields", ["ThingSpeak-Alerts-API-Key", alertApiKey]);
+
+% Set the email subject.
+alertSubject = sprintf("Temperature Alert!");
+
+% Read the recent temperature data.
+temperatureData = thingSpeakRead(channelID, 'NumDays', 30, 'Fields', 1);  % Assuming temperature data is in field 1
+
+% Check to make sure the data was read correctly from the channel.
+if isempty(temperatureData)
+    alertBody = 'No temperature data read from sensor.';
+else
+    % Define a high temperature threshold.
+    highTemperatureThreshold = 30;  % Change to your desired threshold temperature
+
+    % Get the most recent temperature reading.
+    lastTemperature = temperatureData(end); 
+
+    % Set the outgoing message based on temperature
+    if (lastTemperature >= highTemperatureThreshold)
+        alertBody = sprintf('High temperature alert! Current temperature: %.2f°C. Control the fan here: %s', lastTemperature, linkToQRcode);
+
+    end
+end
+% Send the alert using a try-catch to handle potential errors
+try
+    webwrite(alertUrl, "body", alertBody, "subject", alertSubject, options);
+catch someException
+    fprintf("Failed to send alert: %s\n", someException.message);
+end
