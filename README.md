@@ -82,17 +82,7 @@ After installation and configuration, the system will automatically start monito
 - Outlook
 
 ### Installation
-### Step 1:
-Pull github
-
-
-### Configuration
-
-
-
-### Usage
-
-
+For full details please refer to tutorial here: https://docs.google.com/document/d/1O-hQE0gVF4TNJDogpcM8xBmY2vE1PERtSCZabrK3UpY/edit?usp=sharing
 
 ## Contact
 - Project Link: [https://github.com/castlemas/ESP32c6](https://github.com/castlemas/ESP32c6)
