@@ -38,11 +38,10 @@ Assemble the hardware components as per the schematic diagram below
 )
 
 #### Step 2
-Pull the repo from the 
+Download the zip folder in this github. Unzip the folder and copy the "Smart-Irrigation" folder in C:\Espressif\frameworks\esp-rainmaker\examples. 
 
 #### Step 3
 Open the folder in Visual Studio Code. Configure the ESP-IDF to ESP32C6 and the port that you are connected to. 
-
 (Note: You can know which port you are using by checking the device manager)
 
 #### Step 4
@@ -51,9 +50,10 @@ Click on **build** and wait for the build to be completed. Once the build is don
 #### Step 5
 For first time use, click on **monitor** and a QR code will be generated. Scan the QR code with the ESP RainMaker App and the device will be connected to the app.
 
+For full details please refer to tutorial here: https://docs.google.com/document/d/1O-hQE0gVF4TNJDogpcM8xBmY2vE1PERtSCZabrK3UpY/edit?usp=sharing
+
 ### Configuration
 - **Moisture Threshold**: Set the desired soil moisture level that triggers the irrigation system.
-<!-- - **Watering Schedule**: Customize the watering intervals and duration according to your specific needs. -->
 
 ### Usage
 After installation and configuration, the system will automatically start monitoring the soil moisture and begin irrigation when necessary. You can monitor the system's status and make any adjustments through the rainmaker app.
